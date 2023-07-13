@@ -24,7 +24,9 @@ function VendorProposalTile({
   async function deleteProposal() {
     await axios({
       method: "delete",
-      url: "https://event-proposal-backend-k9e3.onrender.com/eventapp/api/v1/proposal/" + proposal._id,
+      url:
+        "https://event-proposal-project-t7mt.onrender.com/eventapp/api/v1/proposal/" +
+        proposal._id,
       headers: {
         Authorization: `Bearer ${localStorage.token}`,
       },
@@ -32,7 +34,6 @@ function VendorProposalTile({
     });
     setLoading(false);
     setProposalLoading(true);
-    // window.location.reload(true);
     getVendorProposals();
   }
   return (
@@ -90,7 +91,6 @@ function VendorProposalTile({
                 }}
               ></i>
             )}
-            {/* <div className="tile-icons"></div> */}
           </div>
         </div>
       </div>

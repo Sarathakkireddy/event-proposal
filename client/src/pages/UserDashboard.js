@@ -5,9 +5,9 @@ import { useAccountInfo } from "../contexts/accountContext";
 import Navbar from "../components/Navbar";
 
 const all_proposals_api =
-  "https://event-proposal-backend-k9e3.onrender.com/eventapp/api/v1/proposal";
+  "https://event-proposal-project-t7mt.onrender.com/eventapp/api/v1/proposal";
 const my_details_api =
-  "https://event-proposal-backend-k9e3.onrender.com/eventapp/api/v1/account/my-details";
+  "https://event-proposal-project-t7mt.onrender.com/eventapp/api/v1/account/my-details";
 
 function UserDashboard() {
   const navigate = useNavigate();

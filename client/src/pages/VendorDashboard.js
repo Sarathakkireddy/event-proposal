@@ -5,9 +5,9 @@ import Navbar from "../components/Navbar";
 import { useAccountInfo } from "../contexts/accountContext";
 
 const get_vendor_proposals_api =
-  "https://event-proposal-backend-k9e3.onrender.com/eventapp/api/v1/proposal/my";
+  "https://event-proposal-project-t7mt.onrender.com/eventapp/api/v1/proposal/my";
 const my_details_api =
-  "https://event-proposal-backend-k9e3.onrender.com/eventapp/api/v1/account/my-details";
+  "https://event-proposal-project-t7mt.onrender.com/eventapp/api/v1/account/my-details";
 
 function VendorDashboard() {
   const navigate = useNavigate();

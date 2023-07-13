@@ -13,7 +13,7 @@ import Events from "./viewProposals/Events";
 import VendorContact from "./viewProposals/VendorContact";
 
 const updateSelectionApi =
-  "https://event-proposal-backend-k9e3.onrender.com/eventapp/api/v1/account";
+  "https://event-proposal-project-t7mt.onrender.com/eventapp/api/v1/account";
 
 function ViewProposal() {
   const context = useAccountInfo();
